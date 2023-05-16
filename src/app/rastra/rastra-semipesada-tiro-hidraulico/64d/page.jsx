@@ -35,6 +35,11 @@ export default function Rastra64D () {
           <p className='w-4/5 text-xl text-justify'>Un sistema de tiro a través del cual se acopla al tractor; dos graduadores con los cuales se evita que la rastra se incline hacia adelante o hacia atrás; un sistema de transporte conformado por dos pares de ruedas, las cuales se controlan por medio de un sistema hidráulico; un marco, donde van sujetos todos los elementos; un bastidor delantero y un bastidor trasero, dispuestos de manera excéntrica, formando entre ellos un ángulo determinado según la aplicación que se requiera de la rastra; por último, ocho kit de discos conformados por ocho discos cada uno, los cuales son cóncavos y van ensamblados en un eje central mixto rosca y rosca, separados por chumaceras R-52 y separadores de 9 pulgadas para mantener una distancia constante entre cada disco, estando la mitad de estos alojados en el bastidor delantero, trabajando hacia la derecha y la otra mitad en el bastidor trasero haciéndolo a la inversa.</p>
         </div>
       </section>
+      <section className='p-10 flex flex-col pl-36 '>
+        <Link href='#' className='text-red-700 underline text-xl' >Especificaciones Técnicas</Link>
+        <Link href='#' className='text-red-700 underline text-xl' >Composición del producto</Link>
+        <Link href='#' className='text-red-700 underline text-xl' >Diseño en SolidWork</Link>
+      </section>
       <section className='w-full min-h-screen flex flex-col justify-center items-center'>
         <Link href='#' className='h-screen flex flex-col items-center justify-center'>
           <h2 className='mb-5 text-red-700 text-3xl text-center italic font-bold'>Manual de Ensamblaje</h2>
@@ -48,11 +53,6 @@ export default function Rastra64D () {
           <h2 className='mb-5 text-red-700 text-3xl text-center italic font-bold'>Planos</h2>
           <Image className='h-4/5' src={planos} alt='ensamblaje' width={1000} height={500} />
         </Link>
-      </section>
-      <section className='p-10 flex flex-col'>
-        <Link href='#' className='text-red-700 underline' >Especificaciones Técnicas</Link>
-        <Link href='#' className='text-red-700 underline' >Composición del producto</Link>
-        <Link href='#' className='text-red-700 underline' >Diseño en SolidWork</Link>
       </section>
     </main>
   )

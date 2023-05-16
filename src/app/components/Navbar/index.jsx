@@ -25,7 +25,7 @@ export const Navbar = () => {
           <Link href="/" className="block py-2 pl-3 pr-4 text-white-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 t">Acerca de</Link>
         </li>
         <li>
-          <Link href="/" className="block py-2 pl-3 pr-4 text-white-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 t">Maquinaria</Link>
+          <Link href="/" className="block py-2 pl-3 pr-4 text-white-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 t">Implementos</Link>
         </li>
         <li>
           <Link href="/" className="block py-2 pl-3 pr-4 text-white-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 t">Precios</Link>

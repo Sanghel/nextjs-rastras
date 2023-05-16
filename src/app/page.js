@@ -14,10 +14,10 @@ import tolva from '../../public/assets/tolva.png'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="w-full flex min-h-screen flex-col items-center justify-between">
       <Navbar />
       <section className='w-full min-h-screen text-white flex items-center justify-center'>
-        <Image src={portada} alt='portada' sizes='100vw'/>
+        <Image src={portada} alt='portada' 	style={{objectFit: "contain"}}/>
       </section>
       <h1 className='pt-36 text-red-700 text-5xl text-center italic font-bold'>Implementos</h1>
       <section className='w-full p-10 flex gap-5 flex-wrap '>
