@@ -5,8 +5,8 @@ import rastra2 from '../../../../../public/assets/rastra62_2.png'
 import rastra3 from '../../../../../public/assets/rastra62_3.png'
 import rastra4 from '../../../../../public/assets/rastra62_4.png'
 import rastra5 from '../../../../../public/assets/rastra62_5.png'
-import usuario from '../../../../../public/assets/manual_usuario.png'
-import ensamblaje from '../../../../../public/assets/manual_ensamblaje.png'
+import usuario from '../../../../../public/assets/manual_usuario.jpg'
+import ensamblaje from '../../../../../public/assets/manual_ensamblaje.jpg'
 import planos from '../../../../../public/assets/planos.png'
 import Link from 'next/link'
 
@@ -40,14 +40,14 @@ export default function Rastra64D () {
         <Link href='#' className='text-red-700 underline text-xl' >Composición del producto</Link>
         <Link href='#' className='text-red-700 underline text-xl' >Diseño en SolidWork</Link>
       </section>
-      <section className='w-full min-h-screen flex flex-col justify-center items-center'>
-        <Link href='#' className='h-screen flex flex-col items-center justify-center'>
+      <section className='w-full min-h-screen flex flex-col justify-center items-center gap-10'>
+        <Link href='#' className='min-h-screen flex flex-col items-center justify-center'>
           <h2 className='mb-5 text-red-700 text-3xl text-center italic font-bold'>Manual de Ensamblaje</h2>
-          <Image className='h-4/5' src={ensamblaje} alt='ensamblaje' width={600} height={500} />
+          <Image className='h-4/5' src={ensamblaje} alt='ensamblaje' width={600} height={700} />
         </Link>
-        <Link href='#' className='h-screen flex flex-col items-center justify-center'>
+        <Link href='#' className='min-h-screen flex flex-col items-center justify-center'>
           <h2 className='mb-5 text-red-700 text-3xl text-center italic font-bold'>Manual de Usuario</h2>
-          <Image className='h-4/5' src={usuario} alt='usuario' width={600} height={500} />
+          <Image className='h-4/5' src={usuario} alt='usuario' width={600} height={700} />
         </Link>
         <Link href='#' className='h-screen flex flex-col items-center justify-center'>
           <h2 className='mb-5 text-red-700 text-3xl text-center italic font-bold'>Planos</h2>
